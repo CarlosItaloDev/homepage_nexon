@@ -61,5 +61,6 @@ nav{
     transition: 0,5s;
 }
 #enter-btn:hover{
-    color: #1c0240;
+    background-color: #1c0240;
+    color:#f2cb05;
 }
