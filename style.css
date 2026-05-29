@@ -1,38 +1,37 @@
 /*Geral*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
-h1,h2,h3{
+h1,h2,h3 {
     color: #1c0240;
 }
 
-p{
+p {
     color: #510273;
 }
 
 /*Navbar*/
 
-.navbar-container{
+.navbar-container {
     width: 100%;
     height: 80px;
     background-color: #510273;
     padding: 0 2rem;
 }
 
-nav{
+nav {
     position: relative;
 }
-
-.logo{
+.logo {
     width: 50px;
     margin-top: 15px;
 }
-.navbar-item{
+.navbar-item {
     position: absolute;
     right: 0;
     height: 80px;
@@ -40,27 +39,83 @@ nav{
     margin:0;
     display: inline-block;
 }
-.navbar-item li{
+.navbar-item li {
     display: inline-block;
     text-transform: uppercase;
     margin-left: 25px;
 }
-.navbar-item a{
+.navbar-item a {
     color: #f2cb05;
     text-decoration: none;
     transition: 0.5s;
 }
-.navbar-item a:hover{
+.navbar-item a:hover {
     color: #fff;
 }
-#enter-btn{
+#enter-btn {
     color: #510273;
     padding: 15px 20px;
     background-color: #f2cb05;
     border-radius: 5px;
     transition: 0,5s;
 }
-#enter-btn:hover{
+#enter-btn:hover {
     background-color: #1c0240;
-    color:#f2cb05;
+    color:#fff;
+}
+/*main banner*/
+
+.main-banner {
+    background-image: url(assets/images/hero.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+.main-banner h1 {
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 2rem;
+}
+span {
+    text-transform: uppercase;
+    font-size: 90px;
+}
+.main-banner p {
+    color: #f2cb05;
+    text-align: left;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 2rem;
+}
+
+/*Services*/
+img {
+    width: 120px;
+    margin-top: 15px;
+}
+.services-container{
+    padding: 5rem 0;
+}
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.services-container h3{
+    margin-bottom: 25px;
+}
+
+.services-container p{
+    line-height: 24px;
+    text-align: left;   
 }
