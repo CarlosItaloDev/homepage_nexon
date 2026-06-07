@@ -8,7 +8,7 @@
 }
 
 h1,h2,h3 {
-    color: #1c0240;
+    color: #1c0240;;
 }
 
 p {
@@ -21,6 +21,7 @@ p {
     width: 100%;
     background: linear-gradient(180deg,#510273,#1c0240);
     padding: 0 2rem;
+    position: fixed;
 }
 
 nav {
