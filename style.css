@@ -19,7 +19,7 @@ p {
 
 .navbar-container {
     width: 100%;
-    background-color: #510273;
+    background: linear-gradient(180deg,#510273,#1c0240);
     padding: 0 2rem;
 }
 
@@ -129,9 +129,11 @@ img {
 }
 
 .services-container p{
-    line-height: 24px;
+    line-height: 25px;
     text-align: left; 
-    font-weight: bold;  
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    word-spacing: 2px;
 }
 
 /*customers*/
